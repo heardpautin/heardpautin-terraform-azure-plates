@@ -1,4 +1,4 @@
-yyprovider "azurerm" {
+yyyprovider "azurerm" {
   features {}
 }
 
