@@ -6,3 +6,12 @@ provider "azurerm" {
   client_id       = var.client_id
   client_secret   = var.client_secret
 }
+
+terraform {
+  required_providers {
+    azurerm = {
+      source  = "hashicorp/azurerm"
+      version = "~> 3.0"  # Ensure this version aligns with the lock file
+    }
+  }
+}
